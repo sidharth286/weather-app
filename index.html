@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <h1>🌦 Weather Dashboard</h1>
+
+    <button id="themeBtn">Dark Mode</button>
+
+    <br><br>
+
+    <input type="text" id="city" placeholder="Enter city name">
+    <button id="searchBtn">Search</button>
+
+    <p id="loading"></p>
+    <p id="error"></p>
+
+    <div id="weather">
+        <h2 id="cityName"></h2>
+        <h1 id="temperature"></h1>
+        <p id="description"></p>
+        <p id="details"></p>
+
+        <button id="favoriteBtn">Add Favorite</button>
+
+        <h3>5-Day Forecast</h3>
+        <div id="forecast"></div>
+    </div>
+
+    <h2>❤️ Favorite Cities</h2>
+    <div id="favorites"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
